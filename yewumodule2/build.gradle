@@ -1,0 +1,10 @@
+apply from: "../basebuild.gradle"
+
+android {
+    //选择性是否开启
+    //resourcePrefix "xxxx_"
+}
+
+dependencies {
+    annotationProcessor "com.alibaba:arouter-compiler:$aliARouterCompileVersion"
+}
