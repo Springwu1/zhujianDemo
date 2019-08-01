@@ -30,6 +30,7 @@ public class Moude1MainActivity extends AppCompatActivity {
         ARouter.getInstance().build("/ModuleB/Module2Activity")
                 .withLong("key1", 666L)
                 .withString("key2", "888")
+
                 .withObject("key3", new Userbean("Jack", 23))
                 .navigation();
     }
